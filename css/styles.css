@@ -45,6 +45,7 @@ h3 {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
+    padding-top: 20px;
 }
 
 /* Classes */
@@ -55,10 +56,21 @@ h3 {
     padding: 5px;
     width: 150px;
 }
+
+.colorbox {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.colorbox-link {
+    color: #00416d;
+
+}
 .top-container {
     background-color: #00416d;
     position: relative;
-    padding-top: 100px;
+    padding: 50px;
 }
 
 .copyright {
@@ -70,6 +82,10 @@ h3 {
     background-color: #00416d;
     margin-top: 25px;
     padding: 50px 0 20px;
+}
+
+.summary {
+    padding-top: 50px; 
 }
 
 .write {
